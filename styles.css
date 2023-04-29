@@ -1,0 +1,55 @@
+html {
+  background-image: url("assets/clouds.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#game-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assets/wood-background.png");
+  width: 50rem;
+  height: 50rem;
+  border: solid 0.5rem black;
+}
+
+#game-title {
+  font-size: 5rem;
+  background-color: white;
+  border: solid 0.5rem black;
+}
+
+#gameplay-board {
+  background-color: darkolivegreen;
+  border: solid 0.5rem black;
+  padding: 20px;
+  width: 360px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hole {
+  background-image: url("./assets/hole.png");
+  background-size: contain;
+  width: 110px;
+  height: 123px;
+  margin: 5px;
+}
+
+.mole {
+  background-image: url("./assets/mole.png");
+}
